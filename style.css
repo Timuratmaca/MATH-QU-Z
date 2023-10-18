@@ -1,0 +1,36 @@
+body {
+    background-image: url(bc414fa5a04ca937b4f155b6a10b4a60.jpg);
+    background-size: cover;
+    
+}
+.form{
+    background-color: rgb(255, 255, 255);
+    margin-top:200px;
+    text-align:center;
+    width:500px;
+    margin-left: 500px;
+    padding:10px;
+    border-radius:10px;
+}
+h1{
+    color:blue;
+}
+h2{
+    color:darkgray;
+}
+h3{
+    width: 50px;
+    margin-left: 230px;
+    display: inline-block;
+    display: flex;
+    /* align-items: last baseline; */
+}
+#score{
+    background-color: aqua;
+}
+#time{
+    background-color: rgb(255, 2, 2);
+}
+button{
+    display:block;
+}
