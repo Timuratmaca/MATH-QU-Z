@@ -5,13 +5,14 @@ body {
 }
 .form{
     background-color: rgb(255, 255, 255);
-    margin-top:200px;
+    margin-top:190px;
     text-align:center;
     width:500px;
-    margin-left: 500px;
+    margin-left: 450px;
     padding:10px;
     border-radius:10px;
     display: inline-block;
+    width: 600px;
 }
 h1{
     color:blue;
@@ -21,13 +22,28 @@ h2{
 }
 h3{
     width: 50px;
-    text-align: center;
 }
 #score{
-    background-color: aqua;
     display: inline-block;
+    margin-right: 90px;
 }
 #time{
-    background-color: rgb(255, 2, 2);
     display:inline-block;
+    margin-left: 90px;
+}
+button{
+    width: 250px;
+    display:inline-block;
+    background-color: rgba(2, 249, 249, 0.273);
+    height: 50px;
+    margin: 5px;
+    border-radius:10px;
+}
+input{
+    width: 450px;
+    height: 30px;
+    margin: 10px;
+    margin-left: 70px;
+    border-radius: 10px;
+    outline-color: rgb(255, 0, 0);
 }
