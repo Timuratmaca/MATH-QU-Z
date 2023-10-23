@@ -1,22 +1,29 @@
-let positive=document.getElementById("positive")
-let negative=document.getElementById("negative")
-let bölüm=document.getElementById("bölüm")
-let çarpim=document.getElementById("çarpim")
+let addition=document.getElementById("addition")
+let subtration=document.getElementById("subtration")
+let division=document.getElementById("division")
+let multiplication=document.getElementById("multiplication")
+let input=document.getElementsByTagName("input")[0];
+let h2=document.getElementsByTagName("h2")[0]
+let hi=Math.random("1+1","2+2","3+3")
 
 
-bölüm.onclick=function(event){
-    event.preventDefault()
+
+
+division.onclick=function(event){
+    event.preventDefault();
     console.log("/")
 }
-positive.onclick=function (event){
+addition.onclick=function (event){
     console.log("+")
     event.preventDefault();
+    console.log(input.value);
+    h2.innerHTML=hi;
 }
-negative.onclick=function (event){
+subtration.onclick=function (event){
     event.preventDefault();
     console.log("-")
 }
-çarpim.onclick=function (event){
-    event.preventDefoult();
+multiplication.onclick=function (event){
+    event.preventDefault();
     console.log("*")
 }

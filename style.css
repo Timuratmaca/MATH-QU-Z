@@ -1,49 +1,68 @@
 body {
     background-image: url(bc414fa5a04ca937b4f155b6a10b4a60.jpg);
     background-size: cover;
-    
 }
 .form{
     background-color: rgb(255, 255, 255);
-    margin-top:190px;
     text-align:center;
-    width:500px;
-    margin-left: 450px;
     padding:10px;
     border-radius:10px;
-    display: inline-block;
     width: 600px;
+    font-size: 0;
+    margin: auto;
+    margin-top:190px;
 }
 h1{
     color:blue;
+    font-size: 30px;
 }
 h2{
     color:darkgray;
+    font-size: 30px ;
 }
 h3{
     width: 50px;
+    font-size: 20px;
 }
 #score{
     display: inline-block;
-    margin-right: 90px;
+    width:50%;
 }
 #time{
     display:inline-block;
-    margin-left: 90px;
+    width:50%;
 }
 button{
-    width: 250px;
+    width: calc(50% - 4px);
     display:inline-block;
     background-color: rgba(2, 249, 249, 0.273);
     height: 50px;
-    margin: 5px;
     border-radius:10px;
+    font-size:30px;
+    border: solid 2px lightblue;
+    transition: 1s;
+    margin: 2px;
+
+}
+button:hover{
+    border: 2px solid rgb(86, 190, 225);
+    box-shadow: 0 0 10px rgb(86, 190, 225);
+
 }
 input{
     width: 450px;
     height: 30px;
     margin: 10px;
-    margin-left: 70px;
     border-radius: 10px;
-    outline-color: rgb(255, 0, 0);
+    outline: none;
+    border: 2px solid lightblue;
+    display: block;
+    text-align: center;
+    margin:auto;
+    margin-bottom: 30px;
+    transition: 1s;
+}
+input:focus{
+    border: 2px solid rgb(86, 190, 225);
+    box-shadow: 0 0 10px rgb(86, 190, 225);
 }
