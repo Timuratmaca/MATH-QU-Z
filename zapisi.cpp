@@ -1,5 +1,5 @@
-ponojatiyu na plus vıvodilsa randomnıy primer
 povtarat proyektı
+pri najatio na aditition score uviliçivayetsa
 
 
 
