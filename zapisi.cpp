@@ -1,12 +1,14 @@
 povtarat proyektı
-pri najatio na aditition score uviliçivayetsa
+delat"-"
+shrift
+style
 
 
 
 
 
 
-
+input.disabled=(true)=zablokiravat input
 
     border: 2px solid lightblue; = abvotka liniyey 
     
