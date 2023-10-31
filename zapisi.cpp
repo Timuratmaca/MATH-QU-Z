@@ -1,6 +1,5 @@
 povtarat proyektı
-delat"-"
-shrift
+delat"*","/"
 style
 
 

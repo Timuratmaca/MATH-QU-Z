@@ -14,6 +14,7 @@ let correct
 let second
 let first
 let sign="+"
+let newgame=document.getElementById("newgame")
 
 
 
@@ -49,6 +50,8 @@ function exercise() {
 division.onclick=function(event){
     event.preventDefault();
     console.log("/")
+    score.innerHTML="score: 0"
+
 }
 addition.onclick=function (event){
     event.preventDefault();
@@ -97,4 +100,9 @@ subtraction.onclick=function (event){
 multiplication.onclick=function (event){
     event.preventDefault();
     console.log("*")
+}
+newgame.onclick=function newgame(event) {
+    event.preventDefault();
+    console.log("new game");
+    score.innerHTML=("Score: ")
 }
