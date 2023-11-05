@@ -1,8 +1,6 @@
-povtarat proyektı
-delat"*","/"
-style
+score dodelat
 
-
+hocamın : yeni yüz gelmesi türkçe
 
 
 
